@@ -1,0 +1,185 @@
+#page_one {
+    background: black;
+}
+
+#button_group_top {
+    background: #1f1f1e;
+}
+
+#button_group_enter {
+    background: #1f1f1e;
+}
+#img_title{
+    border-radius: 25px;
+}
+#border_list{
+    border-radius: 25px;
+}
+.card {
+    transition: box-shadow 0.3s ease-in-out; /* Добавляет плавную анимацию для тени */
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень при наведении курсора */
+    border-radius: 25px; /* Закругленные углы */
+}
+
+#border_list2{
+    border-radius: 25px;
+}
+#border_list3{
+    border-radius: 25px;
+
+}
+.custom-height {
+  height: 492px;
+    width: 400px;/* Высота по вашему выбору */
+}
+table {
+  width: 100%; /* или любое другое значение */
+  height: 600px; /* или любое другое значение */
+}
+
+th, td {
+  width: 200px; /* установка ширины для заголовков и ячеек */
+  height: 50px; /* установка высоты для заголовков и ячеек */
+    vertical-align: middle;
+
+}
+td{
+    font-size: 24px;
+}
+th{
+    font-size: 36px;
+}
+
+.extra-large-text {
+    font-size: 24px;
+}
+#text_name {
+    font-size: 150px; /* Размер текста */
+
+      background: linear-gradient(90deg, #007BFF, #00BFFF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    font-weight: revert;
+}
+.accordion-item{
+    border-radius: 70px;
+}
+.accordion-button{
+    font-size: 50px;
+}
+.accordion-body{
+    font-size: 34px;
+}
+#title_text {
+      font-size: 50px; /* Увеличение размера текста */
+    font-weight: bold;
+      background: linear-gradient(90deg, #007BFF, #00BFFF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+#discription{
+    font-size: 24px;
+    color: white;
+}
+
+.btn-outline-on-hover {
+   background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста Bootstrap "btn-primary" */
+    border: 1px solid transparent; /* Прозрачные границы */
+    border-color: #1f1f1e;
+
+}
+.btn-outline-on-hover:hover {
+    border-color: black;
+    background: black;
+}
+
+.card-body{
+    height: 250px;
+    width: 400px;
+}
+.list-group{
+    border-radius: 25px;
+}
+
+
+
+#list1 {
+    background: linear-gradient(90deg, #007BFF, #00BFFF);
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 25px;
+    border-width: 0px;
+    position: absolute;
+    right: 840px;
+    rotate: -15deg;
+}
+
+
+.list-group-item{
+    height: 250px;
+    width: 600px;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 4px;
+
+
+}
+.card-body:hover{
+    background: #1f1f1e;
+    border: 1px solid transparent; /* Прозрачные границы */
+    border-color: #1f1f1e;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    transition: background 0.3s ease, border 0.9s ease; /* Плавные переходы */
+    justify-content: space-between; /* Распределяет пространство между элементами */
+    height: 100%; /* Убедитесь, что .card-body занимает всю высоту карточки */
+}
+
+.card-body .btn-hidden {
+    opacity: 0;
+    transition: opacity 0.5s; /* Плавное появление и исчезновение */
+    background: black;
+    border-color: black;
+}
+
+/* Показываем кнопку при наведении на карточку */
+.card-body:hover .btn-hidden {
+    opacity: 1;
+}
+
+#page_second{
+background: black;
+}
+/*#fixedBlock {*/
+/*    top: 10px; !* Расстояние от верхней части экрана *!*/
+/*    right: 10px; !* Расстояние от правой части экрана *!*/
+/*    z-index: 999; !* Убедиться, что блок находится над остальными элементами *!*/
+/*}*/
+/*!* Стиль для момента, когда блок должен остановиться *!*/
+/*.sticky-stop {*/
+/*    position: absolute;*/
+/*    top: auto; !* Или конкретное значение, если требуется *!*/
+/*}*/
+
+
+#page_three{
+background: black;
+}
+.card-body{
+    background: black;
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    color: white;
+}
+#button_for_card{
+    background: black;
+}
